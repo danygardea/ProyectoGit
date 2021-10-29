@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+//Clase editada desde github
 public class Alumno {
    
     private Integer id;
