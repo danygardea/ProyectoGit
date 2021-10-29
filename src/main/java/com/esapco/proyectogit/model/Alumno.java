@@ -10,10 +10,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Alumno {
-    
+   
+    private Integer id;
     private String nombre;
     private String direccion;
     private String escuela;
+    private String matricula;
 
     
 }
